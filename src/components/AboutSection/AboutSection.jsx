@@ -27,7 +27,7 @@ function AboutSection() {
               onClick={() => alert("Research & Data Analysis clicked")}
             >
               <h3>Research & Data Analysis</h3>
-              <p>Tools: Excel, Python (Pandas), SPSS, JASP</p>
+              <p>Excel, SQL, sheets, Python (Pandas), SPSS, JASP</p>
             </div>
 
             <div
@@ -35,7 +35,7 @@ function AboutSection() {
               onClick={() => alert("Data Science & ML clicked")}
             >
               <h3>Data Science & Machine Learning</h3>
-              <p>Tools: Python (Scikit-learn), TensorFlow, NumPy, Matplotlib</p>
+              <p>Python, TensorFlow, NumPy, Matplotlib, R</p>
             </div>
 
             <div
@@ -43,7 +43,7 @@ function AboutSection() {
               onClick={() => alert("Software Development clicked")}
             >
               <h3>Software Development</h3>
-              <p>Tools: React, JavaScript, Node.js, Git</p>
+              <p>React, JavaScript, Node.js, Python</p>
             </div>
           </div>
         </div>

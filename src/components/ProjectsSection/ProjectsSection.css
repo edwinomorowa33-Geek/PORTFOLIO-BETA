@@ -1,0 +1,101 @@
+.projects-section {
+    width: 100%;
+    padding: 6rem 2rem;
+    background-color: #f0f9f5;
+    color: #0b1c2d;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Center inner content */
+.projects-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Filter buttons */
+.projects-filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.projects-filters button {
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    border: 1px solid #0b1c2d;
+    background: transparent;
+    color: #0b1c2d;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.projects-filters button.active,
+.projects-filters button:hover {
+    background-color: #b7e4c7;
+}
+
+/* Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* Card */
+.project-card {
+    background-color: #b7e4c7;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.project-image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Content */
+.project-content {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.project-content h3 {
+    margin-bottom: 0.8rem;
+}
+
+.description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.tools {
+    font-size: 0.85rem;
+    opacity: 0.85;
+    margin-bottom: 1rem;
+}
+
+.view-btn {
+    padding: 0.6rem 1.4rem;
+    background-color: #0b1c2d;
+    border: none;
+    color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+}
