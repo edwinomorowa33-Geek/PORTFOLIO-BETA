@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { projectsDB } from "../../data";
+import { projectsDB } from "../../data/projects.db";
+
+
 import "./ProjectsSection.css";
 
 function ProjectsSection() {

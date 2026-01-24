@@ -91,6 +91,10 @@
     margin-bottom: 1rem;
 }
 
+/* Add commas between tools */
+.tools span:not(:last-child)::after {
+    content: ", ";
+}
 .view-btn {
     padding: 0.6rem 1.4rem;
     background-color: #0b1c2d;
