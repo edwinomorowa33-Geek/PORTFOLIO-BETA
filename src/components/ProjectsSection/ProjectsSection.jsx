@@ -1,11 +1,11 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { projectsDB } from "../../data/projects.db";
-
-
 import "./ProjectsSection.css";
 
 function ProjectsSection() {
   const [activeFilter, setActiveFilter] = useState("All");
+  const navigate = useNavigate();
 
   const filters = [
     "All",
@@ -56,14 +56,13 @@ function ProjectsSection() {
               <p className="description">{project.description}</p>
 
               <div className="tools">
-                {project.tools.map((tool) => (
-                  <span className="tool-chip" key={tool}>
-                    {tool}
-                  </span>
-                ))}
+                {project.tools.join(", ")}
               </div>
 
-              <button className="view-btn">
+              <button
+                className="view-btn"
+                onClick={() => navigate(`/projects/${project.id}`)}
+              >
                 View Project
               </button>
             </div>

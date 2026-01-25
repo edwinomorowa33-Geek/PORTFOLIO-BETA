@@ -1,0 +1,137 @@
+/* ProjectDetails.css */
+
+.project-details {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5rem 2rem;
+    box-sizing: border-box;
+    background: #f5fbf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    gap: 3rem;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* IMAGE SECTION */
+.details-image {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* CONTENT SECTION */
+.details-content {
+    width: 50%;
+    padding: 3rem;
+}
+
+.details-content h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 0.6rem;
+    color: #0b1c2d;
+}
+
+.industry {
+    font-size: 1rem;
+    color: #4b5c6c;
+    margin-bottom: 1.5rem;
+}
+
+.summary {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #33475b;
+    margin-bottom: 2rem;
+}
+
+.details-content h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.1rem;
+    color: #0b1c2d;
+}
+
+.details-content p {
+    font-size: 0.95rem;
+    color: #4b5c6c;
+    line-height: 1.6;
+}
+
+/* TOOLS */
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+}
+
+.tool-chip {
+    padding: 0.45rem 0.9rem;
+    background: #e6f5ed;
+    color: #0b1c2d;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* LINKS */
+.project-links {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.project-links a {
+    text-decoration: none;
+    padding: 0.75rem 1.2rem;
+    border-radius: 999px;
+    font-weight: 700;
+    color: #fff;
+    background: #0b1c2d;
+    border: 2px solid #0b1c2d;
+    transition: all 0.3s ease;
+}
+
+.project-links a:hover {
+    background: transparent;
+    color: #0b1c2d;
+}
+
+/* RESPONSIVE */
+@media (max-width: 980px) {
+    .details-container {
+        flex-direction: column;
+    }
+
+    .details-image {
+        width: 100%;
+        height: 320px;
+    }
+
+    .details-content {
+        width: 100%;
+        padding: 2.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .project-details {
+        padding: 3rem 1rem;
+    }
+
+    .details-content h1 {
+        font-size: 1.9rem;
+    }
+}
