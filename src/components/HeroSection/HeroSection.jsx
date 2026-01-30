@@ -26,7 +26,7 @@ function HeroSection() {
 
       <p className="mission">
         Combining insight, data science, code, and research to create and
-        demonstrate sustainable solutions, riding out my passion.
+        demonstrate sustainable solutions for real world and business problems.
       </p>
 
       <div className="hero-buttons">

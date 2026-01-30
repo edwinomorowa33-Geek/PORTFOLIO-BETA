@@ -5,10 +5,8 @@
     width: 100%;
     box-sizing: border-box;
     border: 1px solid #ddd;
-    /* border around the section */
     border-radius: 12px;
     background-color: #fff;
-    /* optional light background */
 }
 
 .about-container {
@@ -18,7 +16,6 @@
     margin: 0 auto;
     flex-wrap: wrap;
     align-items: center;
-    /* vertical center of image & text */
 }
 
 .about-image img {
