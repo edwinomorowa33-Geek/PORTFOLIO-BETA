@@ -1,5 +1,6 @@
 import economyImg from "../assets/projects/economy.jpg";
 import dashboardImg from "../assets/projects/dashboard.jpg";
+import EuroImg from "../assets/projects/Euro(2024).jpg";
 
 export const projectsDB = [
   {
@@ -42,26 +43,35 @@ diversification, productivity, and macroeconomic stability.
   },
 
   {
-    id: "sales-dashboard",
-    title: "Interactive Sales Dashboard",
-    category: "Dashboard",
+  id: "euro-2024",
+  title: "UEFA EURO 2024 – Football & Financial Analysis",
+  category: "Dashboard",
 
-    image: dashboardImg,
+  image: EuroImg,
 
-    description:
-      "Dynamic dashboard for tracking KPIs and business insights.",
+  description:
+    "Interactive dashboard analyzing EURO 2024 teams, player distribution, club affiliations, and financial power across participating countries.",
 
-    industry: "Business Intelligence / Sales Analytics",
-    summary:
-      "An interactive Power BI dashboard designed to help decision-makers track sales performance, monitor KPIs, and identify revenue trends across regions and time periods.",
+  industry: "Football Analytics / Sports Finance",
 
-    tools: ["Power BI", "Excel"],
+  summary:
+    `This project analyzes UEFA EURO 2024 through a football and financial lens,
+    allowing fans and analysts to explore how national team performance aligns
+    with player club distribution, league strength, and financial investment.
+    The dashboard highlights the biggest spending countries, dominant clubs,
+    player concentration across leagues, and top-value players on the continent.
+    It provides an intuitive, data-driven way for football enthusiasts to
+    understand the economic forces shaping international football.`,
 
-    links: {
-      github: null,
-      report: null,
-      dashboard: "https://dashboard.link/...",
-      liveDemo: null,
-    },
+  tools: ["Google Looker Studio"],
+
+  links: {
+    github: null,
+    report: null,
+    dashboard: "https://lookerstudio.google.com/s/hw12p8dNXyw",
+    liveDemo: null,
   },
+}
+
+  
 ];
