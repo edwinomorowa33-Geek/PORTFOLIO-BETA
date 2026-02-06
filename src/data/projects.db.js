@@ -3,6 +3,8 @@ import EuroImg from "../assets/projects/Euro(2024).jpg";
 import CashCropImg from "../assets/projects/CashCrop.jpg";
 import fintechImg from "../assets/projects/fintech.jpg";
 import ClassFixImg from "../assets/projects/Classifix.jpg";
+import hypertensionImg from "../assets/projects/hypertension.jpg";
+import valueAIImg from "../assets/projects/Value.jpg";
 export const projectsDB = [
   {
     id: "nigeria-economy",
@@ -93,50 +95,37 @@ diversification, productivity, and macroeconomic stability.
   },
 
 
-  {
-    id: "",
-    title: "",
-    category: "",
+ {
+  id: "hypertension-ml",
+  title: "Determinants and Prediction of Hypertension",
+  category: "Models",
 
-    image: null,
+  image: hypertensionImg,
 
-    description: "",
+  description:
+    "A statistical and machine learning analysis aimed at identifying key risk factors for hypertension and developing predictive models for individual risk assessment.",
 
-    industry: "",
+  industry: "Healthcare Analytics / Public Health",
 
-    summary: "",
+  summary:
+    "This project investigates the determinants of hypertension using a dataset of 1,985 adults, combining inferential statistics and machine learning techniques. Exploratory analysis and hypothesis testing identified age, BMI, stress score, smoking status, family history, sleep duration, and blood pressure history as significant predictors. Confirmatory factor analysis highlighted the relative importance of physiological and psycho-social factors. Optimized Random Forest and Gradient Boosting models were trained to predict hypertension risk, with Random Forest achieving the best performance at 84.9% accuracy. The project demonstrates a data-driven, statistically grounded framework for hypertension risk stratification in clinical and public health contexts.",
 
-    tools: [],
+  tools: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "SciPy",
+    "Scikit-learn",
+    "Matplotlib",
+    "Seaborn"
+  ],
 
-    links: {
-      github: null,
-      report: null,
-      dashboard: null,
-      liveDemo: null,
-    },
-  },
-
-  {
-    id: "",
-    title: "",
-    category: "",
-
-    image: null,
-
-    description: "",
-
-    industry: "",
-
-    summary: "",
-
-    tools: [],
-
-    links: {
-      github: null,
-      report: null,
-      dashboard: null,
-      liveDemo: null,
-    },
+  links: {
+    github: "https://github.com/edwinomorowa33-Geek/MACHINE_LEARNING_MODEL/tree/main/Hypertension",
+    report: "https://drive.google.com/file/d/1f_YFOwMwGjduDi7Eeji4NSU1RXXLR__d/view?usp=drive_link",
+    dashboard: null,
+    liveDemo: null,
+        },
   },
 
   {
@@ -192,10 +181,44 @@ diversification, productivity, and macroeconomic stability.
 
   links: {
     github: null,
-    report: "https://drive.google.com/file/d/1xPSGh_Ks71VT11PXtcB-EniMIIVGNdh8/view?usp=drive_link",      // add PDF / thesis link when available
+    report: "https://drive.google.com/file/d/1xPSGh_Ks71VT11PXtcB-EniMIIVGNdh8/view?usp=drive_link",      
     dashboard: null,   // optional if you later visualize results
     liveDemo: null,
   },
-}
+},
 
+{
+  id: "value-ai-football",
+  title: "Value.AI: Objective Football Player Valuation",
+  category: "Machine Learning / Research",
+
+  image: valueAIImg, 
+
+  description:
+    "A machine learning framework for objectively estimating football player market value using measurable performance attributes.",
+
+  industry: "Sports Analytics / Football Intelligence",
+
+  summary:
+    "Value.AI is a machine learning–driven framework designed to estimate football player market value based on quantifiable performance data rather than subjective market forces. Using cleaned multi-league player statistics, football-specific feature engineering, and ensemble learning models, the system produces statistically consistent valuations aligned with on-field ability. A tuned Gradient Boosting model explains approximately 89% of the variance in player market value, demonstrating that performance metrics alone can reliably drive valuation. The project supports data-driven scouting, recruitment, and financial decision-making while reducing bias from media exposure and reputation.",
+
+  tools: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "Machine Learning",
+    "Gradient Boosting",
+    "Random Forest",
+    "Exploratory Data Analysis",
+    "Feature Engineering",
+  ],
+
+  links: {
+    github: "https://github.com/edwinomorowa33-Geek/MACHINE_LEARNING_MODEL/tree/main/Value_AI",
+    report: "https://drive.google.com/file/d/18c0P1D-emoZWEmhTbLewcCjgiBrJuNpE/view?usp=drive_link",
+    dashboard: null,
+    Model: "https://github.com/edwinomorowa33-Geek/MACHINE_LEARNING_MODEL/blob/main/Value_AI/Value_model_Alpha.pkl",
+  },
+}
 ];
