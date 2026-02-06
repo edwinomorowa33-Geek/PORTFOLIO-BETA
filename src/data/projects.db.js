@@ -3,7 +3,7 @@ import EuroImg from "../assets/projects/Euro(2024).jpg";
 import CashCropImg from "../assets/projects/CashCrop.jpg";
 import fintechImg from "../assets/projects/fintech.jpg";
 import ClassFixImg from "../assets/projects/Classifix.jpg";
-import hypertensionImg from "../assets/projects/hypertension.jpg";
+import hypertensionImg from "../assets/projects/Hypertension.jpg";
 import valueAIImg from "../assets/projects/Value.jpg";
 export const projectsDB = [
   {
