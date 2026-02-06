@@ -190,7 +190,7 @@ diversification, productivity, and macroeconomic stability.
 {
   id: "value-ai-football",
   title: "Value.AI: Objective Football Player Valuation",
-  category: "Machine Learning / Research",
+  category: "Models",
 
   image: valueAIImg, 
 
