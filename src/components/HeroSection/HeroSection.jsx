@@ -4,7 +4,7 @@ import "./HeroSection.css";
 function HeroSection() {
 
   const handleDownloadCV = () => {
-    const cvUrl = "/cv/Omorowa_Edwin_CV.pdf";
+    const cvUrl = "/cv/EDWIN-GEN-CV.pdf";
 
     const link = document.createElement("a");
     link.href = cvUrl;
