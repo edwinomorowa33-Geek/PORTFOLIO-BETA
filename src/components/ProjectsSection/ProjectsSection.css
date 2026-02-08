@@ -103,3 +103,97 @@
     border-radius: 6px;
     cursor: pointer;
 }
+
+
+
+/* ========================= */
+/* TABLET (<= 900px) */
+/* ========================= */
+@media (max-width: 900px) {
+    .projects-section {
+        padding: 5rem 1.5rem;
+    }
+
+    .projects-section h2 {
+        font-size: 2.2rem;
+    }
+
+    .projects-grid {
+        gap: 1.6rem;
+    }
+
+    .project-content {
+        padding: 1.3rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+}
+
+/* ========================= */
+/* MOBILE (<= 600px) */
+/* ========================= */
+@media (max-width: 600px) {
+    .projects-section {
+        padding: 4rem 1rem;
+    }
+
+    .projects-section h2 {
+        font-size: 1.9rem;
+    }
+
+    .projects-filters {
+        gap: 0.7rem;
+    }
+
+    .projects-filters button {
+        padding: 0.5rem 1.1rem;
+        font-size: 0.85rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        /* single column */
+        gap: 1.5rem;
+    }
+
+    .project-image img {
+        height: 200px;
+        /* slightly taller for mobile */
+    }
+
+    .project-content {
+        padding: 1.2rem;
+    }
+
+    .project-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+    .view-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* ========================= */
+/* SMALL PHONES (<= 400px) */
+/* ========================= */
+@media (max-width: 400px) {
+    .projects-section h2 {
+        font-size: 1.7rem;
+    }
+
+    .project-image img {
+        height: 180px;
+    }
+
+    .description {
+        font-size: 0.85rem;
+    }
+}

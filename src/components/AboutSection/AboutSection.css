@@ -81,3 +81,85 @@
     font-size: 0.9rem;
     color: #555;
 }
+
+/* ========================= */
+/* TABLET (<= 900px) */
+/* ========================= */
+@media (max-width: 900px) {
+    .about-section {
+        padding: 5rem 1.5rem;
+    }
+
+    .about-container {
+        gap: 2rem;
+    }
+
+    .about-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-text p {
+        font-size: 0.95rem;
+    }
+
+    .about-image img {
+        width: 260px;
+    }
+}
+
+/* ========================= */
+/* MOBILE (<= 600px) */
+/* ========================= */
+@media (max-width: 600px) {
+    .about-section {
+        padding: 4rem 1rem;
+    }
+
+    .about-container {
+        flex-direction: column;
+        /* stack image & text */
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 220px;
+        margin: 0 auto;
+    }
+
+    .about-text h2 {
+        font-size: 1.6rem;
+    }
+
+    .about-text p {
+        font-size: 0.95rem;
+        text-align: left;
+        /* easier to read on mobile */
+    }
+
+    .skills-cards {
+        gap: 1.2rem;
+    }
+
+    .card {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* ========================= */
+/* SMALL PHONES (<= 400px) */
+/* ========================= */
+@media (max-width: 400px) {
+    .about-text h2 {
+        font-size: 1.4rem;
+    }
+
+    .about-text p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .about-image img {
+        width: 200px;
+    }
+}

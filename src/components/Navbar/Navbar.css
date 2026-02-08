@@ -10,31 +10,82 @@
   top: 0;
   background: #fff;
   z-index: 1000;
-  flex-wrap: wrap;
   width: 100%;
-  /* full width across screen */
   box-sizing: border-box;
+
+  /* Prevent floating/wrapping chaos */
+  flex-wrap: nowrap;
 }
 
 .navbar h3 {
   margin: 0;
+  white-space: nowrap;
 }
 
 .navbar-links {
   display: flex;
   gap: 1.5rem;
-  flex-wrap: wrap;
-  /* wrap links on small screens */
-  margin-top: 0.5rem;
+  white-space: nowrap;
 }
 
 .navbar-links a {
   text-decoration: none;
   color: #000;
   font-weight: 500;
+  transition: color 0.2s ease;
 }
 
 .navbar-links a:hover {
   color: #007bff;
-  /* highlight on hover */
+}
+
+/* ========================= */
+/* TABLET — squeeze neatly */
+/* ========================= */
+@media (max-width: 900px) {
+  .navbar {
+    padding: 0.9rem 1.5rem;
+  }
+
+  .navbar-links {
+    gap: 1rem;
+  }
+
+  .navbar-links a {
+    font-size: 0.95rem;
+  }
+}
+
+/* ========================= */
+/* MOBILE — controlled stack */
+/* ========================= */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.9rem 1.2rem;
+  }
+
+  .navbar-links {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 0.6rem;
+  }
+
+  .navbar-links a {
+    font-size: 0.9rem;
+  }
+}
+
+/* ========================= */
+/* VERY SMALL PHONES */
+/* ========================= */
+@media (max-width: 400px) {
+  .navbar-links {
+    gap: 0.7rem;
+  }
+
+  .navbar-links a {
+    font-size: 0.85rem;
+  }
 }
